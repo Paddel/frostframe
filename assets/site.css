@@ -173,6 +173,7 @@ section + section { border-top: 1px solid var(--line); }
 .faq details p { color: var(--text-muted); margin: 0 0 20px; }
 
 /* Kontaktband in der Markenfarbe, mit Falz wie die Promo-Kachel */
+.note { margin-top: 20px; font-size: 15px; color: var(--text-muted); }
 .band { background: var(--accent); color: var(--on-accent); border-radius: var(--radius); padding: 56px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; --fold: 56px; --fold-color: var(--accent-hover); }
 .band h2 { margin: 0 0 8px; }
 .band p { margin: 0; opacity: 0.92; font-size: 18px; }

@@ -76,7 +76,6 @@ section + section { border-top: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; gap: 24px; height: 64px; }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 650; font-size: 19px; letter-spacing: -0.01em; }
 .brand img { width: 30px; height: 30px; }
-.brand span { color: var(--text-muted); font-weight: 450; }
 .site-nav { margin-left: auto; display: flex; gap: 4px; align-items: center; }
 .site-nav a { color: var(--text); text-decoration: none; padding: 6px 12px; border-radius: var(--radius); font-size: 15px; font-weight: 500; }
 .site-nav a:hover { background: var(--surface); }
@@ -229,7 +228,6 @@ section + section { border-top: 1px solid var(--line); }
   section { padding: 64px 0; }
   .hero { padding: 64px 0 72px; }
   .site-nav a:not(.keep) { display: none; }
-  .brand span { display: none; }
   .principles, .steps, .site-footer .wrap { grid-template-columns: 1fr; }
   .product, .plan { padding: 24px; }
   .band { padding: 40px 24px; --fold: 40px; }
